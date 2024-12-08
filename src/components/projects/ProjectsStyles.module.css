@@ -8,6 +8,7 @@
     width: 250px;
     height: 250px;
     align-self: center;
+    justify-content: space-around;
     background-color: var(--project-card-bg);
     border-radius: 20px;
   }
@@ -36,5 +37,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0 30px;
+  }
+
+  img {
+    margin-right: 40px;
   }
 }

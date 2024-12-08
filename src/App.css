@@ -67,6 +67,33 @@ p {
   cursor: pointer;
 }
 
+.scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--btn-color);
+  color: black;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  z-index: 1000; 
+}
+
+.scrollToTopButton:hover {
+  background-color: #c4c4c4; 
+}
+
+.scrollToTopButton i {
+  font-size: 20px; 
+}
+
 @media (width >= 800px) {
   #root {
     gap: 100px;
